@@ -18,17 +18,20 @@ Having completed the writting of the necessary terrraform files for the environm
 
 For the dev environment
 
-![image](images/teraform_init_dev.png)
-![image](images/teraform_validate_dev.png)
-![image](images/teraform_plan_dev.png)
+![image](images/terraform_init_dev.png)
+![image](images/terraform_validate_dev.png)
+![image](images/terraform_plan_dev.png)
+![image](images/terraform_plan2_dev.png)
 
 For the staging environment
-![image](images/teraform_init&val_staging.png)
-![image](images/teraform_plan_staging.png)
+![image](images/terraform_init&val_staging.png)
+![image](images/terraform_plan_staging.png)
+![image](images/terraform_plan2_staging.png)
 
 For the prod environment
-![image](images/teraform_plann_prod.png)
-![image](images/teraform_plann2_prod.png)
+![image](images/terraform_plan2_prod.png)
+![image](images/terraform_plann_prod.png)
+![image](images/terraform_plann2_prod.png)
 
 ### Conclusion
 
