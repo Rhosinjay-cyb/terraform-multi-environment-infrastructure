@@ -9,6 +9,8 @@ This project demonstrates the deployment of infrastructure to multiple enviromen
 ### Project tree
 The diagram below shows the various files and directories in the project. Each of the modules contains 3 Terraform configuration files while the environments contain 4 Terraform configuration files as shown.
 
+![image](images/tree.png)
+
 An S3 bucket (terraform-state456789) with native lock enabled was deployed in AWS to store the terraform state remotely allowing the tracking of changes in the infrastructure it manages while the lock prevents multiple Terraform operations from modifying the same state concurrently. Also, a user terraform-service with appropriate permission was provisioned to allow the creation of the storage account through AWS CLI and also for the succesful running of 'Terraform plan'
 
 ### Results
@@ -16,11 +18,17 @@ Having completed the writting of the necessary terrraform files for the environm
 
 For the dev environment
 
+![image](images/teraform_init_dev.png)
+![image](images/teraform_validate_dev.png)
+![image](images/teraform_plan_dev.png)
 
 For the staging environment
-
+![image](images/teraform_init&val_staging.png)
+![image](images/teraform_plan_staging.png)
 
 For the prod environment
+![image](images/teraform_plann_prod.png)
+![image](images/teraform_plann2_prod.png)
 
 ### Conclusion
 
